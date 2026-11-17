@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "term": "test",
+  "built_at": "2026-11-14T00:00:00+09:00",
+  "departments": [
+    "316901"
+  ],
+  "department_list": [
+    {
+      "campus": 1,
+      "code": "316901",
+      "name": "경영학과",
+      "college": "경영대학"
+    },
+    {
+      "campus": 1,
+      "code": "316902",
+      "name": "경제학과",
+      "college": "경제대학"
+    }
+  ],
+  "counts": {
+    "sections": 14,
+    "parse_failed": 0,
+    "eval_web": 4,
+    "eval_pdf": 3,
+    "eval_none": 7
+  }
+}
