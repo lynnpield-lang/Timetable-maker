@@ -1,0 +1,27 @@
+# 비밀값 (예시 파일만 올린다)
+.env
+.env.*
+!.env.example
+
+# Python·도구 캐시
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+
+# 수집 원본·캐시·개인 자료 (04_conventions 6장: 커밋 금지)
+**/data/raw/
+*.pdf
+*.png
+*.jpg
+*.jpeg
+competition*.csv
+parse_errors.csv
+
+# 에디터·OS
+.DS_Store
+.vscode/
+.idea/
+.claude/
